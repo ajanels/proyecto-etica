@@ -1,0 +1,128 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('./img/WhatsApp\ Image\ 2024-10-15\ at\ 21.03.11.jpeg'); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem; 
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0.5rem; 
+    text-align: center;
+}
+
+.cylinder {
+    perspective: 2000px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px; 
+}
+
+.cylinder-inner {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 1s ease;
+}
+
+.project-card {
+    position: absolute;
+    width: 290px;
+    height: 300px;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.322);
+    border-radius: 10px;
+    text-align: center;
+    transform-style: preserve-3d;
+}
+
+.imagenes {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.project-card:nth-child(1) {
+    transform: rotateY(0deg) translateZ(500px); 
+}
+.project-card:nth-child(2) {
+    transform: rotateY(40deg) translateZ(500px);
+}
+.project-card:nth-child(3) {
+    transform: rotateY(80deg) translateZ(500px);
+}
+.project-card:nth-child(4) {
+    transform: rotateY(120deg) translateZ(500px);
+}
+.project-card:nth-child(5) {
+    transform: rotateY(160deg) translateZ(500px);
+}
+.project-card:nth-child(6) {
+    transform: rotateY(200deg) translateZ(500px);
+}
+.project-card:nth-child(7) {
+    transform: rotateY(240deg) translateZ(500px);
+}
+.project-card:nth-child(8) {
+    transform: rotateY(280deg) translateZ(500px);
+}
+.project-card:nth-child(9) {
+    transform: rotateY(320deg) translateZ(500px);
+}
+
+.static-image {
+    position: absolute;
+    z-index: 0;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    padding: 1.5rem;
+    top: 15px; 
+}
+
+
+.btn {
+    background-color: #fff;
+    color: #333;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 1rem;
+    z-index: 1;
+}
+
+.btn:hover {
+    background-color: #38A9E2;
+    color: #fff;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem; 
+}
