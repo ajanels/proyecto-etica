@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 1</title>
+    <link rel="stylesheet" href="styless.css">
+    <style>
+        .module-content {
+            display: none; 
+        }
+        .active {
+            display: block; 
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Proyecto 1</h1>
+    </header>
+    <main class="container">
+        <section class="modules">
+            <div class="module" onclick="showContent('mod1')">Módulo 1</div>
+            <div class="module" onclick="showContent('mod2')">Módulo 2</div>
+            <div class="module" onclick="showContent('mod3')">Módulo 3</div>
+            <div class="module" onclick="showContent('mod4')">Módulo 4</div>
+            <div class="module" onclick="showContent('mod5')">Módulo 5</div>
+        </section>
+        
+        <section id="content" class="content">
+            <div id="mod1" class="module-content">
+                <img src="modulo1.jpg" alt="Imagen del Módulo 1" style="width: 100%; max-width: 400px; border-radius: 10px;">
+                <h2>Detalles del Módulo 1</h2>
+                <p>Descripción completa del Módulo 1.</p>
+            </div>
+            <div id="mod2" class="module-content">
+                <h2>Detalles del Módulo 2</h2>
+                <p>Descripción completa del Módulo 2.</p>
+                <img src="modulo2.jpg" alt="Imagen del Módulo 2" style="width: 100%; max-width: 400px; border-radius: 10px;">
+            </div>
+            <div id="mod3" class="module-content">
+                <h2>Detalles del Módulo 3</h2>
+                <p>Descripción completa del Módulo 3.</p>
+                <img src="modulo3.jpg" alt="Imagen del Módulo 3" style="width: 100%; max-width: 400px; border-radius: 10px;">
+            </div>
+            <div id="mod4" class="module-content">
+                <h2>Detalles del Módulo 4</h2>
+                <p>Descripción completa del Módulo 4.</p>
+                <img src="modulo4.jpg" alt="Imagen del Módulo 4" style="width: 100%; max-width: 400px; border-radius: 10px;">
+            </div>
+            <div id="mod5" class="module-content">
+                <h2>Detalles del Módulo 5</h2>
+                <p>Descripción completa del Módulo 5.</p>
+                <img src="modulo5.jpg" alt="Imagen del Módulo 5" style="width: 100%; max-width: 400px; border-radius: 10px;">
+            </div>
+        </section>
+    </main>
+    
+</body>
+<script src="sciptss.js"></script>
+</html>
