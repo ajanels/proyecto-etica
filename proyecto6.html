@@ -1,11 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Proyecto 1</title>
+    <link rel="stylesheet" href="styless.css">
+    <style>
+        .module-content {
+            display: none; 
+        }
+        .active {
+            display: block; 
+        }
+    </style>
 </head>
 <body>
+    <header class="header">
+        <h1>PRINCIPIO DEL PERDON</h1>
+    </header>
+    <main class="container">
+        <section class="modules_andony1">
+            <div class="module_andony1" onclick="showContent('mod1')">PERDON</div>
+            <div class="module_andony1" onclick="showContent('mod2')">LIBERTAD</div>
+            <div class="module_andony1" onclick="showContent('mod3')">COMPENSACION</div>
+            <div class="module_andony1" onclick="showContent('mod4')">RESTAURACION</div>
+            <div class="module_andony1" onclick="showContent('mod5')">SANIDAD</div>
+        </section>
+        
+        <section id="content" class="content-andony1">
+            <div id="mod1" class="module-content-andony1">
+                <div class="colorletra">
+                    <h2>PERDON</h2>
+                    <p>Descripción completa del Módulo 1.</p>
+                    <img src="./img/perdon1.jpg" alt="Imagen del Módulo 1" style="width: 100%; max-width: 400px; border-radius: 10px;">
+                </div>
+            </div>
+            <div id="mod2" class="module-content-andony1">
+                <div class="colorletra">
+                    <h2>LIBERTAD</h2>
+                    <p>Descripción completa del Módulo 2.</p>
+                    <img src="./img/LIBERTAD.png" alt="Imagen del Módulo 2" style="width: 100%; max-width: 400px; border-radius: 10px;">
+                </div>
+            </div>
+            <div id="mod3" class="module-content-andony1">
+                <div class="colorletra">
+                    <h2>COMPENSACION</h2>
+                    <p>Descripción completa del Módulo 3.</p>
+                    <img src="./img/COMPENSACION.jpg" alt="Imagen del Módulo 3" style="width: 100%; max-width: 400px; border-radius: 10px;">
+                </div>
+            </div>
+            <div id="mod4" class="module-content-andony1">
+                <div class="colorletra">
+                    <h2>RESTAURACION</h2>
+                    <p>Descripción completa del Módulo 4.</p>
+                    <img src="./img/RESTAURACION.jpg" alt="Imagen del Módulo 4" style="width: 100%; max-width: 400px; border-radius: 10px;">
+                </div>
+            </div>
+            <div id="mod5" class="module-content-andony1">
+                <div class="colorletra">
+                    <h2>SANIDAD</h2>
+                    <p>Descripción completa del Módulo 5.</p>
+                    <img src="./img/SANIDAD.jpg" alt="Imagen del Módulo 5" style="width: 100%; max-width: 400px; border-radius: 10px;">
+                </div>
+            </div>        
+        </section>
+    </main>
     
+    <script src="sciptss.js"></script>
 </body>
 </html>

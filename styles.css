@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('./img/fondo2.jpg'); 
+    background-image: url('./img/fondonoche.jpg'); 
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
@@ -50,7 +50,7 @@ h1 {
     width: 290px;
     height: 300px;
     padding: 2rem;
-    background-color: rgba(0, 0, 0, 0.322);
+    background-color: rgba(0, 0, 0, 0.732);
     border-radius: 10px;
     text-align: center;
     transform-style: preserve-3d;

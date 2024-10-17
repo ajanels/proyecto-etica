@@ -1,11 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Proyecto 1</title>
+    <link rel="stylesheet" href="styless.css">
+    <style>
+        .module-content {
+            display: none; 
+        }
+        .active {
+            display: block; 
+        }
+    </style>
 </head>
 <body>
+    <header class="header">
+        <h1>PRINCIPIO DE JUSTICIA</h1>
+    </header>
+    <main class="container">
+        <section class="modules_andony1">
+            <div class="module_andony1" onclick="showContent('mod1')">JUSTICIA</div>
+            <div class="module_andony1" onclick="showContent('mod2')">IMPARCIALIDAD</div>
+            <div class="module_andony1" onclick="showContent('mod3')">EQUIDAD</div>
+            <div class="module_andony1" onclick="showContent('mod4')">VERDAD</div>
+            <div class="module_andony1" onclick="showContent('mod5')">LEY DEL RETORNO</div>
+            <div class="module_andony1" onclick="showContent('mod6')">RESPETO</div>
+        </section>
+        
+        <section id="content" class="content-andony1">
+            <div id="mod1" class="module-content-andony1">
+                <div class="colorletra">
+                    <h2>JUSTICIA</h2>
+                    <p>Descripción completa del Módulo 1.</p>
+                    <img src="./img/justicia1.png" alt="Imagen del Módulo 1" style="width: 100%; max-width: 400px; border-radius: 10px;">
+                </div>
+            </div>
+            <div id="mod2" class="module-content-andony1">
+                <div class="colorletra">
+                    <h2>IMPARCIALIDAD</h2>
+                    <p>Descripción completa del Módulo 2.</p>
+                    <img src="./img/imparcialidad1.jpg" alt="Imagen del Módulo 2" style="width: 100%; max-width: 400px; border-radius: 10px;">
+                </div>
+            </div>
+            <div id="mod3" class="module-content-andony1">
+                <div class="colorletra">
+                    <h2>EQUIDAD</h2>
+                    <p>Descripción completa del Módulo 3.</p>
+                    <img src="./img/equidad1.webp" alt="Imagen del Módulo 3" style="width: 100%; max-width: 400px; border-radius: 10px;">
+                </div>
+            </div>
+            <div id="mod4" class="module-content-andony1">
+                <div class="colorletra">
+                    <h2>VERDAD</h2>
+                    <p>Descripción completa del Módulo 4.</p>
+                    <img src="./img/verdad.jpeg" alt="Imagen del Módulo 4" style="width: 100%; max-width: 400px; border-radius: 10px;">
+                </div>
+            </div>
+            <div id="mod5" class="module-content-andony1">
+                <div class="colorletra">
+                    <h2>LEY DEL RETORNO</h2>
+                    <p>Descripción completa del Módulo 5.</p>
+                    <img src="./img/retorno.jpg" alt="Imagen del Módulo 5" style="width: 100%; max-width: 400px; border-radius: 10px;">
+                </div>
+            </div>        
+            <div id="mod6" class="module-content-andony1">
+                <div class="colorletra">
+                    <h2>RESPETO</h2>
+                    <p>Descripción completa del Módulo 6.</p>
+                    <img src="./img/respeto.jpeg" alt="Imagen del Módulo 6" style="width: 100%; max-width: 400px; border-radius: 10px;">
+                </div>
+            </div>
+        </section>
+    </main>
     
+    <script src="sciptss.js"></script>
 </body>
 </html>
