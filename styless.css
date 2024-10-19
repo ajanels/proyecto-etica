@@ -39,9 +39,9 @@ body {
     flex: 1;
     padding: 20px;
     max-width: 300px; 
-    background-color: #ffffff; 
+    background-color: #262a2b; 
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.973);
+    box-shadow: 0 0 10px rgba(99, 94, 94, 0.973);
     margin-top: 20px; 
     height: calc(100vh - 100px); 
     overflow-y: auto; 
@@ -58,7 +58,7 @@ color: #2A363B;
 .module {
     padding: 15px;
     margin: 10px 0;
-    background-color: #ba0afff7; 
+    background-color: #0083eef7; 
     color: white;
     border-radius: 5px;
     cursor: pointer;
@@ -68,7 +68,7 @@ color: #2A363B;
 .module_andony1 {
     padding: 15px;
     margin: 10px 0;
-    background-color: #E84A5F; 
+    background-color: #5da8ff; 
     color: white;
     border-radius: 5px;
     cursor: pointer;
@@ -102,7 +102,7 @@ color: #2A363B;
 .content-andony1 {
     flex: 3;
     padding: 20px;
-    background-color: #ff847c;
+background: linear-gradient(90deg, #001f3f, #005f99, #003366);
 }
 
 .module-content {
@@ -117,7 +117,7 @@ color: #2A363B;
 .module-content-andony1 {
     display: none; 
     padding: 15px;
-    background-color: #fecea8;
+    background: linear-gradient(90deg, #7dbeff, #6fbef0, hsl(210, 100%, 69%));
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(6, 6, 6, 0.936);
     margin-top: 10px; 
